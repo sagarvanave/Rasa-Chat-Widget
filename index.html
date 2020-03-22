@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Widget</title>
+  <link rel='stylesheet' href='css/bootstrap.min.css'>
+<link rel='stylesheet' href='css/bootstrap-material-design.css'>
+<!-- <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'> -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="body"> 
+<div id="chat-circle" class="btn btn-raised">
+        <div id="chat-overlay"></div>
+		    <i class="material-icons msg_icon">question_answer</i>
+	</div>
+  
+  <div class="chat-box">
+    <div class="chat-box-header">
+      <strong>Chat Bot</strong>
+      <span class="chat-box-toggle"><i class="material-icons">close</i></span>
+    </div>
+    <div class="chat-box-body">
+      <div class="chat-box-overlay">   
+      </div>
+      <div class="chat-logs">
+      </div>
+    </div>
+    <div class="chat-input">      
+      <form autocomplete="off">
+        <input type="text" id="chat-input" placeholder="Send a message..."/>
+      <button type="submit" class="chat-submit" id="chat-submit">
+        <i class="material-icons send_btn">send</i></button>
+      </form>      
+    </div>
+  </div>
+  
+  
+  
+  
+</div>
+  <script src='js/jquery.min.js'></script>
+<script src='js/bootstrap.min.js'></script>
+<script  src="js/script.js"></script>
+</body>
+</html>
