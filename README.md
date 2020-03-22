@@ -12,4 +12,6 @@ This UI can be use in any website only have to change the URL in js/script.js fi
 
 3) Play with bot.
 
+# Chat Widget UI
+![chat_widget](https://raw.githubusercontent.com/sagarvanave/Rasa-Chat-Widget/master/Chat_Widget.png)
 
