@@ -3,7 +3,7 @@ It contains a new custom chat widget. You can edit and modify UI as per your req
 
 This UI can be use in any website only have to change the URL in js/script.js file.
 
-#Steps
+# Steps
 1) Run the rasa using "rasa run -m models --enable-api --log-file out.log" this command so rasa enable HTTP API
 
 2) Add the Website Name or Website IP in "js/script.js" file
